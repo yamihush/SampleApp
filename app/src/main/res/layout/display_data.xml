@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewDisplay"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layoutDisplayPeople">
+
+
+
+                <TextView
+
+                android:id="@+id/FriTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Friends"
+                android:textColor="@color/color_black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/frNoRecordsFound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="No Records Found"
+                    android:textColor="@color/color_black"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:id="@+id/parentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+    <Button
+        android:text="ADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddNewRecord"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@color/color_blue"
+        />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="TSTFirst_name">Muthu</string>
+    <string name="TSTLast_name">kumar</string>
+    <string name="TSTEmail_ID">Muthu@Test1.com</string>
+</resources>
